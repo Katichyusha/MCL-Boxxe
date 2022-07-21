@@ -25,6 +25,10 @@ public class LevelMovement : MonoBehaviour
         forceLimited.x = Mathf.Clamp(forceLimited.x, -maxForce, maxForce);
         forceLimited.y = Mathf.Clamp(forceLimited.y, -maxForce, maxForce);
         rb.AddForce(forceLimited, ForceMode2D.Force);
+
+        if(Input.GetButtonDown("Exit")){
+            Application.Quit();
+        }
     }
 
     public IEnumerator WaitUntilNextScene()
