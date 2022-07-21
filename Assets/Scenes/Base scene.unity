@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 93235162}
   m_Layer: 5
   m_Name: Level6
-  m_TagString: Untagged
+  m_TagString: MENUITEM
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 0d960499f45263e47bd8bf07d4bbfd7d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -211,8 +211,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a7422638c8247c48a0abb9d6927cc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultSize: {x: 0, y: 0}
   sizeChange: 50
-  scaled: 0
+  over: 0
   levelNum: 6
 --- !u!1 &419465541
 GameObject:
@@ -228,7 +229,7 @@ GameObject:
   - component: {fileID: 419465545}
   m_Layer: 5
   m_Name: Level7
-  m_TagString: Untagged
+  m_TagString: MENUITEM
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -272,7 +273,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: ccfb4afc7b5efe046bd0e5b5551fb701, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -302,8 +303,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a7422638c8247c48a0abb9d6927cc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultSize: {x: 0, y: 0}
   sizeChange: 50
-  scaled: 0
+  over: 0
   levelNum: 7
 --- !u!1 &498545567
 GameObject:
@@ -319,7 +321,7 @@ GameObject:
   - component: {fileID: 498545571}
   m_Layer: 5
   m_Name: Level2
-  m_TagString: Untagged
+  m_TagString: MENUITEM
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -363,7 +365,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 87ea98bb78118fc4abd28af94e11bd9d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -393,8 +395,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a7422638c8247c48a0abb9d6927cc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultSize: {x: 0, y: 0}
   sizeChange: 50
-  scaled: 0
+  over: 0
   levelNum: 2
 --- !u!1001 &616754438
 PrefabInstance:
@@ -406,6 +409,26 @@ PrefabInstance:
     - target: {fileID: 1349184261685611992, guid: 12a6478c10f61a9459e7f4e293a009bb, type: 3}
       propertyPath: m_RaycastTarget
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1349184261685611993, guid: 12a6478c10f61a9459e7f4e293a009bb, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 1349184261686717956, guid: 12a6478c10f61a9459e7f4e293a009bb, type: 3}
+      propertyPath: m_Text
+      value: Press here to continue
+      objectReference: {fileID: 0}
+    - target: {fileID: 1349184261686717956, guid: 12a6478c10f61a9459e7f4e293a009bb, type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1349184261686717957, guid: 12a6478c10f61a9459e7f4e293a009bb, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 320
+      objectReference: {fileID: 0}
+    - target: {fileID: 1349184261686717957, guid: 12a6478c10f61a9459e7f4e293a009bb, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -140
       objectReference: {fileID: 0}
     - target: {fileID: 1349184261848936698, guid: 12a6478c10f61a9459e7f4e293a009bb, type: 3}
       propertyPath: m_Name
@@ -536,7 +559,7 @@ GameObject:
   - component: {fileID: 682133045}
   m_Layer: 5
   m_Name: Level1
-  m_TagString: Untagged
+  m_TagString: MENUITEM
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -580,7 +603,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: a1fcee5bc63be0f49b29fcdc90734d24, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -610,8 +633,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a7422638c8247c48a0abb9d6927cc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultSize: {x: 0, y: 0}
   sizeChange: 50
-  scaled: 0
+  over: 0
   levelNum: 1
 --- !u!1001 &1075130799
 PrefabInstance:
@@ -684,7 +708,7 @@ GameObject:
   - component: {fileID: 1245828281}
   m_Layer: 5
   m_Name: Level4
-  m_TagString: Untagged
+  m_TagString: MENUITEM
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -728,7 +752,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: c2f3546c88d272e48bd99f212c4b20a6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -758,8 +782,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a7422638c8247c48a0abb9d6927cc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultSize: {x: 0, y: 0}
   sizeChange: 50
-  scaled: 0
+  over: 0
   levelNum: 4
 --- !u!1 &1745279236
 GameObject:
@@ -775,7 +800,7 @@ GameObject:
   - component: {fileID: 1745279240}
   m_Layer: 5
   m_Name: Level3
-  m_TagString: Untagged
+  m_TagString: MENUITEM
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -819,7 +844,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: cbd6ee7bd72001c499d11cfd92ded3a5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -849,8 +874,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a7422638c8247c48a0abb9d6927cc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultSize: {x: 0, y: 0}
   sizeChange: 50
-  scaled: 0
+  over: 0
   levelNum: 3
 --- !u!1 &1750593183
 GameObject:
@@ -866,7 +892,7 @@ GameObject:
   - component: {fileID: 1750593187}
   m_Layer: 5
   m_Name: Level0
-  m_TagString: Untagged
+  m_TagString: MENUITEM
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -940,8 +966,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a7422638c8247c48a0abb9d6927cc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultSize: {x: 0, y: 0}
   sizeChange: 50
-  scaled: 0
+  over: 0
   levelNum: 0
 --- !u!1 &1789511850
 GameObject:
@@ -1023,7 +1050,7 @@ GameObject:
   - component: {fileID: 1886669653}
   m_Layer: 5
   m_Name: Level5
-  m_TagString: Untagged
+  m_TagString: MENUITEM
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1067,7 +1094,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 09c7be70566bcaa468d8e7309046780b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1097,8 +1124,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a7422638c8247c48a0abb9d6927cc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultSize: {x: 0, y: 0}
   sizeChange: 50
-  scaled: 0
+  over: 0
   levelNum: 5
 --- !u!1001 &1903813886
 PrefabInstance:
@@ -1183,7 +1211,7 @@ GameObject:
   - component: {fileID: 1969977582}
   m_Layer: 5
   m_Name: Level8
-  m_TagString: Untagged
+  m_TagString: MENUITEM
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1227,7 +1255,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 7f040e22910f90a4c97dd80cb899aaaf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1257,8 +1285,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a7422638c8247c48a0abb9d6927cc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultSize: {x: 0, y: 0}
   sizeChange: 50
-  scaled: 0
+  over: 0
   levelNum: 8
 --- !u!1 &2050849281
 GameObject:
@@ -1274,7 +1303,7 @@ GameObject:
   - component: {fileID: 2050849285}
   m_Layer: 5
   m_Name: Level9
-  m_TagString: Untagged
+  m_TagString: MENUITEM
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1318,7 +1347,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 0ae5d294c9b18624f93eddad1ab1b4b6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1348,6 +1377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a7422638c8247c48a0abb9d6927cc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultSize: {x: 0, y: 0}
   sizeChange: 50
-  scaled: 0
+  over: 0
   levelNum: 9

@@ -42,6 +42,6 @@ public class LevelController : MonoBehaviour
     }
 
     public void LoadSpecificScene(int SceneBuildIndex){
-        SceneManager.LoadScene(SceneBuildIndex);
+        SceneManager.LoadScene(SceneBuildIndex+1);
     }
 }

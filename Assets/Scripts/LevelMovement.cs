@@ -14,6 +14,10 @@ public class LevelMovement : MonoBehaviour
         Time.timeScale = 1.0f;
     }
 
+    private void Start(){
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+
     private void Update()
     {
         Vector2 forceDir = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
