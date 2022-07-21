@@ -414,6 +414,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 250
       objectReference: {fileID: 0}
+    - target: {fileID: 1349184261686717954, guid: 12a6478c10f61a9459e7f4e293a009bb, type: 3}
+      propertyPath: m_TagString
+      value: Finish
+      objectReference: {fileID: 0}
     - target: {fileID: 1349184261686717956, guid: 12a6478c10f61a9459e7f4e293a009bb, type: 3}
       propertyPath: m_Text
       value: Press here to continue
@@ -430,6 +434,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -140
       objectReference: {fileID: 0}
+    - target: {fileID: 1349184261848936673, guid: 12a6478c10f61a9459e7f4e293a009bb, type: 3}
+      propertyPath: continueText
+      value: 
+      objectReference: {fileID: 1496400467}
     - target: {fileID: 1349184261848936698, guid: 12a6478c10f61a9459e7f4e293a009bb, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -786,6 +794,11 @@ MonoBehaviour:
   sizeChange: 50
   over: 0
   levelNum: 4
+--- !u!1 &1496400467 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1349184261686717954, guid: 12a6478c10f61a9459e7f4e293a009bb, type: 3}
+  m_PrefabInstance: {fileID: 616754438}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1745279236
 GameObject:
   m_ObjectHideFlags: 0

@@ -45,6 +45,7 @@ public class LevelMovement : MonoBehaviour
             Debug.Log("Congrats");
             Time.timeScale = 0.5f;
             collision.gameObject.SendMessage("FINISH", SendMessageOptions.DontRequireReceiver);
+            PlayerPrefs.SetInt("level", this.GetComponent<LevelController>().GetActiveScene().buildIndex);
             StartCoroutine(WaitUntilNextScene());
         }
         else if (collision.CompareTag("HAZARD"))
