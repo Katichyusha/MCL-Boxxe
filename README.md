@@ -1,5 +1,6 @@
 # MCL-Boxxe
 Unity created flash inspired short game
+Link to itch.io page:  https://katichyusha.itch.io/mcl-boxxe
 
 The goal of the game is to get the player controlled green box past the obstacles into the finish line.
 The obstacles are shown in red for hazards and white for collideable walls.
